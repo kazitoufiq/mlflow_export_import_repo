@@ -13,3 +13,8 @@ export-model --model ml_model --output-dir out --stages Staging
 ### To import a model to  databricks model registry from local machine
 
 import-model --model ml_model22 --experiment-name  /Users/kazitoufiq@gmail.com/test_exp --input-dir out  --delete-model False
+
+
+
+###Ref
+https://github.com/mlflow/mlflow-export-import/blob/master/README_single.md#Import-registered-model
