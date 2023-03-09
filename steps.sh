@@ -1,3 +1,6 @@
+pip install mlflow-export-import
+
+
 ### To export a model from databricks model registry to local machine
 
 export MLFLOW_TRACKING_URI=databricks
